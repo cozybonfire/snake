@@ -1,0 +1,51 @@
+body {
+    background-color: #222222;
+    color: #bbbbbb;
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.head {
+    background-color: #00ff00;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.pellet {
+    background-color: #ff0000;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.segment {
+    background-color: #00ff00;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.square {
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+}

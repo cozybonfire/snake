@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake</title>
+        <link rel="icon" href="favicon.png" />
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="script.js"></script>
+    </head>
+    <body >
+        <div id="game" class="game">
+            <div id="board" class="board">
+                <div id="sq_0_0" class="square"></div>
+                <div id="sq_0_1" class="square"></div>
+                <div id="sq_0_2" class="square"></div>
+                <div id="sq_0_3" class="square"></div>
+                <div id="sq_0_4" class="square"></div>
+                <div id="sq_0_5" class="square"></div>
+                <div id="sq_0_6" class="square"></div>
+                <div id="sq_0_7" class="square"></div>
+                <div id="sq_0_8" class="square"></div>
+                <div id="sq_0_9" class="square"></div>
+                <div id="sq_1_0" class="square"></div>
+                <div id="sq_1_1" class="square"></div>
+                <div id="sq_1_2" class="square"></div>
+                <div id="sq_1_3" class="square"></div>
+                <div id="sq_1_4" class="square"></div>
+                <div id="sq_1_5" class="square"></div>
+                <div id="sq_1_6" class="square"></div>
+                <div id="sq_1_7" class="square"></div>
+                <div id="sq_1_8" class="square"></div>
+                <div id="sq_1_9" class="square"></div>
+                <div id="sq_2_0" class="square"></div>
+                <div id="sq_2_1" class="square"></div>
+                <div id="sq_2_2" class="square"></div>
+                <div id="sq_2_3" class="square"></div>
+                <div id="sq_2_4" class="square"></div>
+                <div id="sq_2_5" class="square"></div>
+                <div id="sq_2_6" class="square"></div>
+                <div id="sq_2_7" class="square"></div>
+                <div id="sq_2_8" class="square"></div>
+                <div id="sq_2_9" class="square"></div>
+                <div id="sq_3_0" class="square"></div>
+                <div id="sq_3_1" class="square"></div>
+                <div id="sq_3_2" class="square"></div>
+                <div id="sq_3_3" class="square"></div>
+                <div id="sq_3_4" class="square"></div>
+                <div id="sq_3_5" class="square"></div>
+                <div id="sq_3_6" class="square"></div>
+                <div id="sq_3_7" class="square"></div>
+                <div id="sq_3_8" class="square"></div>
+                <div id="sq_3_9" class="square"></div>
+                <div id="sq_4_0" class="square"></div>
+                <div id="sq_4_1" class="square"></div>
+                <div id="sq_4_2" class="square"></div>
+                <div id="sq_4_3" class="square"></div>
+                <div id="sq_4_4" class="square"></div>
+                <div id="sq_4_5" class="square"></div>
+                <div id="sq_4_6" class="square"></div>
+                <div id="sq_4_7" class="square"></div>
+                <div id="sq_4_8" class="square"></div>
+                <div id="sq_4_9" class="square"></div>
+                <div id="sq_5_0" class="square"></div>
+                <div id="sq_5_1" class="square"></div>
+                <div id="sq_5_2" class="square"></div>
+                <div id="sq_5_3" class="square"></div>
+                <div id="sq_5_4" class="square"></div>
+                <div id="sq_5_5" class="square"></div>
+                <div id="sq_5_6" class="square"></div>
+                <div id="sq_5_7" class="square"></div>
+                <div id="sq_5_8" class="square"></div>
+                <div id="sq_5_9" class="square"></div>
+                <div id="sq_6_0" class="square"></div>
+                <div id="sq_6_1" class="square"></div>
+                <div id="sq_6_2" class="square"></div>
+                <div id="sq_6_3" class="square"></div>
+                <div id="sq_6_4" class="square"></div>
+                <div id="sq_6_5" class="square"></div>
+                <div id="sq_6_6" class="square"></div>
+                <div id="sq_6_7" class="square"></div>
+                <div id="sq_6_8" class="square"></div>
+                <div id="sq_6_9" class="square"></div>
+                <div id="sq_7_0" class="square"></div>
+                <div id="sq_7_1" class="square"></div>
+                <div id="sq_7_2" class="square"></div>
+                <div id="sq_7_3" class="square"></div>
+                <div id="sq_7_4" class="square"></div>
+                <div id="sq_7_5" class="square"></div>
+                <div id="sq_7_6" class="square"></div>
+                <div id="sq_7_7" class="square"></div>
+                <div id="sq_7_8" class="square"></div>
+                <div id="sq_7_9" class="square"></div>
+                <div id="sq_8_0" class="square"></div>
+                <div id="sq_8_1" class="square"></div>
+                <div id="sq_8_2" class="square"></div>
+                <div id="sq_8_3" class="square"></div>
+                <div id="sq_8_4" class="square"></div>
+                <div id="sq_8_5" class="square"></div>
+                <div id="sq_8_6" class="square"></div>
+                <div id="sq_8_7" class="square"></div>
+                <div id="sq_8_8" class="square"></div>
+                <div id="sq_8_9" class="square"></div>
+                <div id="sq_9_0" class="square"></div>
+                <div id="sq_9_1" class="square"></div>
+                <div id="sq_9_2" class="square"></div>
+                <div id="sq_9_3" class="square"></div>
+                <div id="sq_9_4" class="square"></div>
+                <div id="sq_9_5" class="square"></div>
+                <div id="sq_9_6" class="square"></div>
+                <div id="sq_9_7" class="square"></div>
+                <div id="sq_9_8" class="square"></div>
+                <div id="sq_9_9" class="square"></div>
+            </div>
+            <div id="sidebar">
+                Start the game by choosing a direction with the arrow keys or WASD. <br />
+                Guide the snake to consume pellets and make the snake grow, <br />
+                but make sure you don't hit the wall or run into yourself! <br /><br />
+                Score: <div id="score"></div>
+            </div>
+        </div>
+    </body>
+</html>
